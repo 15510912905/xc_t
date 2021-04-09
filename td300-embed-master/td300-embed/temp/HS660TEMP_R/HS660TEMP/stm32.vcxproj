@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F6FFD4DA-0CE9-4A68-B590-18A8DACAA68D}</ProjectGuid>
+    <RootNamespace>stm32</RootNamespace>
+    <ProjectName>HS660Temperature</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="code\APP\ad1\act.h" />
+    <ClInclude Include="code\APP\ad1\cmd.h" />
+    <ClInclude Include="code\APP\ad1\product.h" />
+    <ClInclude Include="code\APP\ad1\task.h" />
+    <ClInclude Include="code\APP\ad1\unitinfo.h" />
+    <ClInclude Include="code\APP\app_downmsg.h" />
+    <ClInclude Include="code\APP\cmd_basetype.h" />
+    <ClInclude Include="code\APP\cmd_downmachine.h" />
+    <ClInclude Include="code\APP\com\app_com.h" />
+    <ClInclude Include="code\APP\com\app_eeprom.h" />
+    <ClInclude Include="code\APP\com\cmd_funs.h" />
+    <ClInclude Include="code\APP\com\double_list.h" />
+    <ClInclude Include="code\APP\com\drv_motor.h" />
+    <ClInclude Include="code\APP\com\property.h" />
+    <ClInclude Include="code\APP\com\sharememory.h" />
+    <ClInclude Include="code\APP\disw\act.h" />
+    <ClInclude Include="code\APP\disw\cmd.h" />
+    <ClInclude Include="code\APP\disw\disk.h" />
+    <ClInclude Include="code\APP\disw\eeprom_config.h" />
+    <ClInclude Include="code\APP\disw\ndl_operate.h" />
+    <ClInclude Include="code\APP\disw\product.h" />
+    <ClInclude Include="code\APP\disw\task.h" />
+    <ClInclude Include="code\APP\disw\unitinfo.h" />
+    <ClInclude Include="code\APP\mixs\act.h" />
+    <ClInclude Include="code\APP\mixs\act_smp.h" />
+    <ClInclude Include="code\APP\mixs\cmd.h" />
+    <ClInclude Include="code\APP\mixs\eeprom_config.h" />
+    <ClInclude Include="code\APP\mixs\ndl_operate.h" />
+    <ClInclude Include="code\APP\mixs\product.h" />
+    <ClInclude Include="code\APP\mixs\task.h" />
+    <ClInclude Include="code\APP\mixs\unitinfo.h" />
+    <ClInclude Include="code\APP\ndl\act.h" />
+    <ClInclude Include="code\APP\ndl\cmd.h" />
+    <ClInclude Include="code\APP\ndl\eeprom_config.h" />
+    <ClInclude Include="code\APP\ndl\ndl_operate.h" />
+    <ClInclude Include="code\APP\ndl\product.h" />
+    <ClInclude Include="code\APP\ndl\task.h" />
+    <ClInclude Include="code\APP\ndl\unitinfo.h" />
+    <ClInclude Include="code\Config\app_cfg.h" />
+    <ClInclude Include="code\Config\includes.h" />
+    <ClInclude Include="code\Config\os_cfg.h" />
+    <ClInclude Include="code\CORE\core_cm3.h" />
+    <ClInclude Include="code\CORE\stm32f10x_it.h" />
+    <ClInclude Include="code\CORE\system_stm32f10x.h" />
+    <ClInclude Include="code\HARDWARE\KEY\key.h" />
+    <ClInclude Include="code\HARDWARE\LCD\FONT.H" />
+    <ClInclude Include="code\HARDWARE\LCD\lcd.h" />
+    <ClInclude Include="code\HARDWARE\LED\led.h" />
+    <ClInclude Include="code\HARDWARE\RTC\rtc.h" />
+    <ClInclude Include="code\HARDWARE\SPI\spi.h" />
+    <ClInclude Include="code\HARDWARE\TOUCH\touch.h" />
+    <ClInclude Include="code\STM32F10x_FWlib\inc\misc.h" />
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_adc.h" />
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_bkp.h" />
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_can.h" />
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_cec.h" />
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_crc.h" />
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_dac.h" />
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_dbgmcu.h" />
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_dma.h" />
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_exti.h" />
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_flash.h" />
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_fsmc.h" />
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_gpio.h" />
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_i2c.h" />
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_iwdg.h" />
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_pwr.h" />
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_rcc.h" />
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_rtc.h" />
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_sdio.h" />
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_spi.h" />
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_tim.h" />
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_usart.h" />
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_wwdg.h" />
+    <ClInclude Include="code\SYSTEM\can\can.h" />
+    <ClInclude Include="code\SYSTEM\delay\delay.h" />
+    <ClInclude Include="code\SYSTEM\sys\sys.h" />
+    <ClInclude Include="code\SYSTEM\usart\usart.h" />
+    <ClInclude Include="code\uCOS-II\Ports\os_cpu.h" />
+    <ClInclude Include="code\uCOS-II\Source\ucos_ii.h" />
+    <ClInclude Include="code\USER-ad1\stm32f10x.h" />
+    <ClInclude Include="code\USER-ad1\stm32f10x_conf.h" />
+    <ClInclude Include="code\USER-disw\stm32f10x.h" />
+    <ClInclude Include="code\USER-disw\stm32f10x_conf.h" />
+    <ClInclude Include="code\USER-mixs\stm32f10x.h" />
+    <ClInclude Include="code\USER-mixs\stm32f10x_conf.h" />
+    <ClInclude Include="code\USER\stm32f10x.h" />
+    <ClInclude Include="code\USER\stm32f10x_conf.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code\APP\ad1\act.c" />
+    <ClCompile Include="code\APP\ad1\cmd.c" />
+    <ClCompile Include="code\APP\ad1\product.c" />
+    <ClCompile Include="code\APP\ad1\task.c" />
+    <ClCompile Include="code\APP\com\app_eeprom.c" />
+    <ClCompile Include="code\APP\com\cmd_funs.c" />
+    <ClCompile Include="code\APP\com\double_list.c" />
+    <ClCompile Include="code\APP\com\drv_motor.c" />
+    <ClCompile Include="code\APP\com\sharememory.c" />
+    <ClCompile Include="code\APP\disw\act.c" />
+    <ClCompile Include="code\APP\disw\cmd.c" />
+    <ClCompile Include="code\APP\disw\disk - 副本.c" />
+    <ClCompile Include="code\APP\disw\disk.c" />
+    <ClCompile Include="code\APP\disw\eeprom_config.c" />
+    <ClCompile Include="code\APP\disw\ndl_operate.c" />
+    <ClCompile Include="code\APP\disw\product.c" />
+    <ClCompile Include="code\APP\disw\task.c" />
+    <ClCompile Include="code\APP\mixs\act.c" />
+    <ClCompile Include="code\APP\mixs\act_smp.c" />
+    <ClCompile Include="code\APP\mixs\cmd.c" />
+    <ClCompile Include="code\APP\mixs\eeprom_config.c" />
+    <ClCompile Include="code\APP\mixs\ndl_operate.c" />
+    <ClCompile Include="code\APP\mixs\product.c" />
+    <ClCompile Include="code\APP\mixs\task.c" />
+    <ClCompile Include="code\APP\ndl\act.c" />
+    <ClCompile Include="code\APP\ndl\cmd.c" />
+    <ClCompile Include="code\APP\ndl\eeprom_config.c" />
+    <ClCompile Include="code\APP\ndl\ndl_operate.c" />
+    <ClCompile Include="code\APP\ndl\product.c" />
+    <ClCompile Include="code\APP\ndl\task.c" />
+    <ClCompile Include="code\CORE\core_cm3.c" />
+    <ClCompile Include="code\CORE\stm32f10x_it.c" />
+    <ClCompile Include="code\CORE\system_stm32f10x.c" />
+    <ClCompile Include="code\HARDWARE\KEY\key.c" />
+    <ClCompile Include="code\HARDWARE\LCD\ILI93xx.c" />
+    <ClCompile Include="code\HARDWARE\LCD\lcd.c" />
+    <ClCompile Include="code\HARDWARE\LED\led.c" />
+    <ClCompile Include="code\HARDWARE\RTC\rtc.c" />
+    <ClCompile Include="code\HARDWARE\SPI\spi.c" />
+    <ClCompile Include="code\HARDWARE\TOUCH\touch.c" />
+    <ClCompile Include="code\STM32F10x_FWlib\src\misc.c" />
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_adc.c" />
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_bkp.c" />
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_can.c" />
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_cec.c" />
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_crc.c" />
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_dac.c" />
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_dbgmcu.c" />
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_dma.c" />
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_exti.c" />
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_flash.c" />
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_fsmc.c" />
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_gpio.c" />
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_i2c.c" />
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_iwdg.c" />
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_pwr.c" />
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_rcc.c" />
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_rtc.c" />
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_sdio.c" />
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_spi.c" />
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_tim.c" />
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_usart.c" />
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_wwdg.c" />
+    <ClCompile Include="code\SYSTEM\can\can.c" />
+    <ClCompile Include="code\SYSTEM\delay\delay.c" />
+    <ClCompile Include="code\SYSTEM\sys\sys.c" />
+    <ClCompile Include="code\SYSTEM\usart\usart.c" />
+    <ClCompile Include="code\uCOS-II\Ports\os_cpu_c.c" />
+    <ClCompile Include="code\uCOS-II\Ports\os_dbg.c" />
+    <ClCompile Include="code\uCOS-II\Source\os_core.c" />
+    <ClCompile Include="code\uCOS-II\Source\os_flag.c" />
+    <ClCompile Include="code\uCOS-II\Source\os_mbox.c" />
+    <ClCompile Include="code\uCOS-II\Source\os_mem.c" />
+    <ClCompile Include="code\uCOS-II\Source\os_mutex.c" />
+    <ClCompile Include="code\uCOS-II\Source\os_q.c" />
+    <ClCompile Include="code\uCOS-II\Source\os_sem.c" />
+    <ClCompile Include="code\uCOS-II\Source\os_task.c" />
+    <ClCompile Include="code\uCOS-II\Source\os_time.c" />
+    <ClCompile Include="code\uCOS-II\Source\os_tmr.c" />
+    <ClCompile Include="code\USER-ad1\main.c" />
+    <ClCompile Include="code\USER-disw\main.c" />
+    <ClCompile Include="code\USER-mixs\main.c" />
+    <ClCompile Include="code\USER\main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="code\uCOS-II\Ports\os_cpu_a.asm" />
+    <None Include="code\USER-ad1\obj\ucos.build_log.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="code\USER-ad1\obj\ucos.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="code\USER-disw\obj\ucos.build_log.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="code\USER-disw\obj\ucos.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="code\USER-mixs\obj\ucos.build_log.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="code\USER-mixs\obj\ucos.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="code\USER\obj\ucos.build_log.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="code\USER\obj\ucos.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

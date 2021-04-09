@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ProjectWorkspace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project_mpw.xsd">
+
+  <SchemaVersion>1.0</SchemaVersion>
+
+  <Header>### uVision Project, (C) Keil Software</Header>
+
+  <WorkspaceName>WorkSpace</WorkspaceName>
+
+  <project>
+    <PathAndName>..\36 TD300_Reagent_Arm &amp; Reagent_Disk\ucos.uvprojx</PathAndName>
+    <NodeIsExpanded>1</NodeIsExpanded>
+  </project>
+
+  <project>
+    <PathAndName>..\31 TD300_Sample_Arm\ucos.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>..\34 TD300_Stirring\ucos.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>..\33 TD300_Reaction_Disk &amp; AutoWash\ucos.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>..\40 TD300_Detection\ucos.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>..\37 TD300_Transfer_Orbit\ucos.uvprojx</PathAndName>
+    <NodeIsActive>1</NodeIsActive>
+    <NodeIsExpanded>1</NodeIsExpanded>
+  </project>
+
+  <project>
+    <PathAndName>..\41 TD300_Scatter\ucos.uvprojx</PathAndName>
+    <NodeIsExpanded>1</NodeIsExpanded>
+  </project>
+
+</ProjectWorkspace>

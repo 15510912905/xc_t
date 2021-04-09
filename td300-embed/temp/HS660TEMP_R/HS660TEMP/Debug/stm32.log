@@ -1,0 +1,191 @@
+﻿生成启动时间为 2019/4/26 9:25:50。
+     1>项目“D:\zhaoli\HS660\1.UCOS\SVN\HS660TEMP\stm32.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(942,5): warning MSB8027: Two or more files with the name of act.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are code\APP\ad1\act.c, code\APP\disw\act.c, code\APP\mixs\act.c, code\APP\ndl\act.c.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(942,5): warning MSB8027: Two or more files with the name of cmd.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are code\APP\ad1\cmd.c, code\APP\disw\cmd.c, code\APP\mixs\cmd.c, code\APP\ndl\cmd.c.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(942,5): warning MSB8027: Two or more files with the name of product.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are code\APP\ad1\product.c, code\APP\disw\product.c, code\APP\mixs\product.c, code\APP\ndl\product.c.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(942,5): warning MSB8027: Two or more files with the name of task.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are code\APP\ad1\task.c, code\APP\disw\task.c, code\APP\mixs\task.c, code\APP\ndl\task.c.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(942,5): warning MSB8027: Two or more files with the name of eeprom_config.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are code\APP\disw\eeprom_config.c, code\APP\mixs\eeprom_config.c, code\APP\ndl\eeprom_config.c.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(942,5): warning MSB8027: Two or more files with the name of ndl_operate.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are code\APP\disw\ndl_operate.c, code\APP\mixs\ndl_operate.c, code\APP\ndl\ndl_operate.c.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(942,5): warning MSB8027: Two or more files with the name of main.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are code\USER-ad1\main.c, code\USER-disw\main.c, code\USER-mixs\main.c, code\USER\main.c.
+     1>ClCompile:
+         D:\Program Files\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt code\APP\ad1\act.c code\APP\ad1\cmd.c code\APP\ad1\product.c code\APP\ad1\task.c code\APP\com\app_eeprom.c code\APP\com\cmd_funs.c code\APP\com\double_list.c code\APP\com\drv_motor.c code\APP\com\sharememory.c code\APP\disw\act.c code\APP\disw\cmd.c "code\APP\disw\disk - 副本.c" code\APP\disw\disk.c code\APP\disw\eeprom_config.c code\APP\disw\ndl_operate.c code\APP\disw\product.c code\APP\disw\task.c code\APP\mixs\act.c code\APP\mixs\act_smp.c code\APP\mixs\cmd.c code\APP\mixs\eeprom_config.c code\APP\mixs\ndl_operate.c code\APP\mixs\product.c code\APP\mixs\task.c code\APP\ndl\act.c code\APP\ndl\cmd.c code\APP\ndl\eeprom_config.c code\APP\ndl\ndl_operate.c code\APP\ndl\product.c code\APP\ndl\task.c code\CORE\core_cm3.c code\CORE\stm32f10x_it.c code\CORE\system_stm32f10x.c code\HARDWARE\KEY\key.c code\HARDWARE\LCD\ILI93xx.c code\HARDWARE\LCD\lcd.c code\HARDWARE\LED\led.c code\HARDWARE\RTC\rtc.c code\HARDWARE\SPI\spi.c code\HARDWARE\TOUCH\touch.c code\STM32F10x_FWlib\src\misc.c code\STM32F10x_FWlib\src\stm32f10x_adc.c code\STM32F10x_FWlib\src\stm32f10x_bkp.c code\STM32F10x_FWlib\src\stm32f10x_can.c code\STM32F10x_FWlib\src\stm32f10x_cec.c code\STM32F10x_FWlib\src\stm32f10x_crc.c code\STM32F10x_FWlib\src\stm32f10x_dac.c code\STM32F10x_FWlib\src\stm32f10x_dbgmcu.c code\STM32F10x_FWlib\src\stm32f10x_dma.c code\STM32F10x_FWlib\src\stm32f10x_exti.c code\STM32F10x_FWlib\src\stm32f10x_flash.c code\STM32F10x_FWlib\src\stm32f10x_fsmc.c code\STM32F10x_FWlib\src\stm32f10x_gpio.c code\STM32F10x_FWlib\src\stm32f10x_i2c.c code\STM32F10x_FWlib\src\stm32f10x_iwdg.c code\STM32F10x_FWlib\src\stm32f10x_pwr.c code\STM32F10x_FWlib\src\stm32f10x_rcc.c code\STM32F10x_FWlib\src\stm32f10x_rtc.c code\STM32F10x_FWlib\src\stm32f10x_sdio.c code\STM32F10x_FWlib\src\stm32f10x_spi.c code\STM32F10x_FWlib\src\stm32f10x_tim.c code\STM32F10x_FWlib\src\stm32f10x_usart.c code\STM32F10x_FWlib\src\stm32f10x_wwdg.c code\SYSTEM\can\can.c code\SYSTEM\delay\delay.c code\SYSTEM\sys\sys.c code\SYSTEM\usart\usart.c "code\uCOS-II\Ports\os_cpu_c.c" "code\uCOS-II\Ports\os_dbg.c" "code\uCOS-II\Source\os_core.c" "code\uCOS-II\Source\os_flag.c" "code\uCOS-II\Source\os_mbox.c" "code\uCOS-II\Source\os_mem.c" "code\uCOS-II\Source\os_mutex.c" "code\uCOS-II\Source\os_q.c" "code\uCOS-II\Source\os_sem.c" "code\uCOS-II\Source\os_task.c" "code\uCOS-II\Source\os_time.c" "code\uCOS-II\Source\os_tmr.c" "code\USER-ad1\main.c" "code\USER-disw\main.c" "code\USER-mixs\main.c" code\USER\main.c
+         main.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\USER\main.c”: No such file or directory
+         main.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\USER-mixs\main.c”: No such file or directory
+         main.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\USER-disw\main.c”: No such file or directory
+         main.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\USER-ad1\main.c”: No such file or directory
+         os_tmr.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\ucos-ii\source\os_tmr.c(28): fatal error C1083: 无法打开包括文件: “ucos_ii.h”: No such file or directory
+         os_time.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\ucos-ii\source\os_time.c(27): fatal error C1083: 无法打开包括文件: “ucos_ii.h”: No such file or directory
+         os_task.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\ucos-ii\source\os_task.c(27): fatal error C1083: 无法打开包括文件: “ucos_ii.h”: No such file or directory
+         os_sem.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\ucos-ii\source\os_sem.c(27): fatal error C1083: 无法打开包括文件: “ucos_ii.h”: No such file or directory
+         os_q.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\ucos-ii\source\os_q.c(27): fatal error C1083: 无法打开包括文件: “ucos_ii.h”: No such file or directory
+         os_mutex.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\ucos-ii\source\os_mutex.c(27): fatal error C1083: 无法打开包括文件: “ucos_ii.h”: No such file or directory
+         os_mem.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\ucos-ii\source\os_mem.c(27): fatal error C1083: 无法打开包括文件: “ucos_ii.h”: No such file or directory
+         os_mbox.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\ucos-ii\source\os_mbox.c(27): fatal error C1083: 无法打开包括文件: “ucos_ii.h”: No such file or directory
+         os_flag.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\ucos-ii\source\os_flag.c(27): fatal error C1083: 无法打开包括文件: “ucos_ii.h”: No such file or directory
+         os_core.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\ucos-ii\source\os_core.c(28): fatal error C1083: 无法打开包括文件: “ucos_ii.h”: No such file or directory
+         os_dbg.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\ucos-ii\ports\os_dbg.c(25): fatal error C1083: 无法打开包括文件: “ucos_ii.h”: No such file or directory
+         os_cpu_c.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\ucos-ii\ports\os_cpu_c.c(26): fatal error C1083: 无法打开包括文件: “includes.h”: No such file or directory
+         usart.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\system\usart\usart.c(12): fatal error C1083: 无法打开包括文件: “sys.h”: No such file or directory
+         sys.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\system\sys\sys.h(10): fatal error C1083: 无法打开包括文件: “stm32f10x.h”: No such file or directory
+         delay.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\system\delay\delay.h(12): fatal error C1083: 无法打开包括文件: “stm32f10x.h”: No such file or directory
+         can.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\system\can\can.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\system\can\can.h(3): fatal error C1083: 无法打开包括文件: “includes.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         stm32f10x_wwdg.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\stm32f10x_fwlib\src\stm32f10x_wwdg.c(23): fatal error C1083: 无法打开包括文件: “stm32f10x_wwdg.h”: No such file or directory
+         stm32f10x_usart.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\stm32f10x_fwlib\src\stm32f10x_usart.c(23): fatal error C1083: 无法打开包括文件: “stm32f10x_usart.h”: No such file or directory
+         stm32f10x_tim.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\stm32f10x_fwlib\src\stm32f10x_tim.c(23): fatal error C1083: 无法打开包括文件: “stm32f10x_tim.h”: No such file or directory
+         stm32f10x_spi.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\stm32f10x_fwlib\src\stm32f10x_spi.c(23): fatal error C1083: 无法打开包括文件: “stm32f10x_spi.h”: No such file or directory
+         stm32f10x_sdio.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\stm32f10x_fwlib\src\stm32f10x_sdio.c(23): fatal error C1083: 无法打开包括文件: “stm32f10x_sdio.h”: No such file or directory
+         stm32f10x_rtc.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\stm32f10x_fwlib\src\stm32f10x_rtc.c(23): fatal error C1083: 无法打开包括文件: “stm32f10x_rtc.h”: No such file or directory
+         stm32f10x_rcc.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\stm32f10x_fwlib\src\stm32f10x_rcc.c(23): fatal error C1083: 无法打开包括文件: “stm32f10x_rcc.h”: No such file or directory
+         stm32f10x_pwr.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\stm32f10x_fwlib\src\stm32f10x_pwr.c(23): fatal error C1083: 无法打开包括文件: “stm32f10x_pwr.h”: No such file or directory
+         stm32f10x_iwdg.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\stm32f10x_fwlib\src\stm32f10x_iwdg.c(23): fatal error C1083: 无法打开包括文件: “stm32f10x_iwdg.h”: No such file or directory
+         stm32f10x_i2c.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\stm32f10x_fwlib\src\stm32f10x_i2c.c(23): fatal error C1083: 无法打开包括文件: “stm32f10x_i2c.h”: No such file or directory
+         stm32f10x_gpio.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\stm32f10x_fwlib\src\stm32f10x_gpio.c(23): fatal error C1083: 无法打开包括文件: “stm32f10x_gpio.h”: No such file or directory
+         stm32f10x_fsmc.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\stm32f10x_fwlib\src\stm32f10x_fsmc.c(23): fatal error C1083: 无法打开包括文件: “stm32f10x_fsmc.h”: No such file or directory
+         stm32f10x_flash.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\stm32f10x_fwlib\src\stm32f10x_flash.c(23): fatal error C1083: 无法打开包括文件: “stm32f10x_flash.h”: No such file or directory
+         stm32f10x_exti.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\stm32f10x_fwlib\src\stm32f10x_exti.c(23): fatal error C1083: 无法打开包括文件: “stm32f10x_exti.h”: No such file or directory
+         stm32f10x_dma.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\stm32f10x_fwlib\src\stm32f10x_dma.c(23): fatal error C1083: 无法打开包括文件: “stm32f10x_dma.h”: No such file or directory
+         stm32f10x_dbgmcu.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\stm32f10x_fwlib\src\stm32f10x_dbgmcu.c(23): fatal error C1083: 无法打开包括文件: “stm32f10x_dbgmcu.h”: No such file or directory
+         stm32f10x_dac.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\stm32f10x_fwlib\src\stm32f10x_dac.c(23): fatal error C1083: 无法打开包括文件: “stm32f10x_dac.h”: No such file or directory
+         stm32f10x_crc.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\stm32f10x_fwlib\src\stm32f10x_crc.c(23): fatal error C1083: 无法打开包括文件: “stm32f10x_crc.h”: No such file or directory
+         stm32f10x_cec.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\stm32f10x_fwlib\src\stm32f10x_cec.c(23): fatal error C1083: 无法打开包括文件: “stm32f10x_cec.h”: No such file or directory
+         stm32f10x_can.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\stm32f10x_fwlib\src\stm32f10x_can.c(23): fatal error C1083: 无法打开包括文件: “stm32f10x_can.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         stm32f10x_bkp.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\stm32f10x_fwlib\src\stm32f10x_bkp.c(23): fatal error C1083: 无法打开包括文件: “stm32f10x_bkp.h”: No such file or directory
+         stm32f10x_adc.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\stm32f10x_fwlib\src\stm32f10x_adc.c(23): fatal error C1083: 无法打开包括文件: “stm32f10x_adc.h”: No such file or directory
+         misc.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\stm32f10x_fwlib\src\misc.c(24): fatal error C1083: 无法打开包括文件: “misc.h”: No such file or directory
+         touch.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\HARDWARE\TOUCH\touch.c”: No such file or directory
+         spi.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\hardware\spi\spi.h(3): fatal error C1083: 无法打开包括文件: “sys.h”: No such file or directory
+         rtc.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\HARDWARE\RTC\rtc.c”: No such file or directory
+         led.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\hardware\led\led.c(1): fatal error C1083: 无法打开包括文件: “stm32f10x.h”: No such file or directory
+         lcd.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\HARDWARE\LCD\lcd.c”: No such file or directory
+         ILI93xx.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\HARDWARE\LCD\ILI93xx.c”: No such file or directory
+         key.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\hardware\key\key.c(1): fatal error C1083: 无法打开包括文件: “stm32f10x.h”: No such file or directory
+         system_stm32f10x.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\core\system_stm32f10x.c(65): fatal error C1083: 无法打开包括文件: “stm32f10x.h”: No such file or directory
+         stm32f10x_it.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\core\stm32f10x_it.h(27): fatal error C1083: 无法打开包括文件: “stm32f10x.h”: No such file or directory
+         core_cm3.c
+         task.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\APP\ndl\task.c”: No such file or directory
+         product.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\APP\ndl\product.c”: No such file or directory
+         ndl_operate.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\APP\ndl\ndl_operate.c”: No such file or directory
+         eeprom_config.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\APP\ndl\eeprom_config.c”: No such file or directory
+         cmd.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\APP\ndl\cmd.c”: No such file or directory
+         act.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\APP\ndl\act.c”: No such file or directory
+         task.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\app\mixs\task.h(4): fatal error C1083: 无法打开包括文件: “includes.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         product.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\app\mixs\product.h(4): fatal error C1083: 无法打开包括文件: “sys.h”: No such file or directory
+         ndl_operate.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\app\mixs\ndl_operate.h(3): fatal error C1083: 无法打开包括文件: “property.h”: No such file or directory
+         eeprom_config.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\app\mixs\eeprom_config.h(5): fatal error C1083: 无法打开包括文件: “drv_motor.h”: No such file or directory
+         cmd.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\app\mixs\cmd.c(2): fatal error C1083: 无法打开包括文件: “cmd_funs.h”: No such file or directory
+         act_smp.c
+         act.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\app\mixs\act.h(4): fatal error C1083: 无法打开包括文件: “includes.h”: No such file or directory
+         task.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\APP\disw\task.c”: No such file or directory
+         product.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\APP\disw\product.c”: No such file or directory
+         ndl_operate.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\APP\disw\ndl_operate.c”: No such file or directory
+         eeprom_config.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\APP\disw\eeprom_config.c”: No such file or directory
+         disk.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\APP\disw\disk.c”: No such file or directory
+         disk - 副本.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\APP\disw\disk - 副本.c”: No such file or directory
+         cmd.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\APP\disw\cmd.c”: No such file or directory
+         act.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\APP\disw\act.c”: No such file or directory
+         sharememory.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\app\com\sharememory.h(4): fatal error C1083: 无法打开包括文件: “includes.h”: No such file or directory
+         drv_motor.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\app\com\drv_motor.h(6): fatal error C1083: 无法打开包括文件: “includes.h”: No such file or directory
+         double_list.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\app\com\double_list.c(2): fatal error C1083: 无法打开包括文件: “includes.h”: No such file or directory
+         cmd_funs.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\app\com\cmd_funs.h(5): fatal error C1083: 无法打开包括文件: “includes.h”: No such file or directory
+         app_eeprom.c
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\app\com\app_eeprom.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\zhaoli\hs660\1.ucos\svn\hs660temp\code\app\com\app_eeprom.h(4): fatal error C1083: 无法打开包括文件: “includes.h”: No such file or directory
+         task.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\APP\ad1\task.c”: No such file or directory
+         正在生成代码...
+         正在编译...
+         product.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\APP\ad1\product.c”: No such file or directory
+         cmd.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\APP\ad1\cmd.c”: No such file or directory
+         act.c
+     1>c1 : fatal error C1083: 无法打开源文件: “code\APP\ad1\act.c”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“D:\zhaoli\HS660\1.UCOS\SVN\HS660TEMP\stm32.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.63

@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I .\USER-mix -I .\CORE -I ..\uCOS-II\Source -I ..\uCOS-II\Ports -I ..\Config -I .\APP -I ..\STM32F10x_FWlib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\SPI -I ..\APP -I ..\APP\com -I ..\APP -I ..\HARDWARE\AD7685 -I ..\SYSTEM\usart -I ..\USER-my -I ..\HARDWARE\FLASH -I ..\HARDWARE\FLASH -I ..\APP\mixs -I ..\APP\mixs
+-ID:\zhaoli\HS1000_V1.02\01.UCOS\02.ADctrl\poct20180811_normal\code\USER-my\RTE
+-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o .\obj\os_mutex.o --omf_browse .\obj\os_mutex.crf --depend .\obj\os_mutex.d "..\uCOS-II\Source\os_mutex.c"

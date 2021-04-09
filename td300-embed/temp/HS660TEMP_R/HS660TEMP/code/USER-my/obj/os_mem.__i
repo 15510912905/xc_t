@@ -1,0 +1,7 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork -I .\USER-mix -I .\CORE -I ..\uCOS-II\Source -I ..\uCOS-II\Ports -I ..\Config -I .\APP -I ..\STM32F10x_FWlib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\APP -I ..\APP\com -I ..\APP -I ..\SYSTEM\usart -I ..\USER-my -I ..\APP\mixs -I ..\APP\mixs -I ..\HARDWARE\LED -I ..\HARDWARE\SWITCH -I ..\HARDWARE\PID -I ..\HARDWARE\TEMP -I ..\HARDWARE\FLASH -I ..\CORE
+-I.\RTE\_Target_1
+-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include
+-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0
+-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o .\obj\os_mem.o --omf_browse .\obj\os_mem.crf --depend .\obj\os_mem.d "..\uCOS-II\Source\os_mem.c"

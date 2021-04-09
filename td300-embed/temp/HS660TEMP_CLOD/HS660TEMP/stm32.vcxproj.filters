@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\Config\app_cfg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Config\includes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Config\os_cfg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CORE\core_cm3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CORE\stm32f10x_it.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CORE\system_stm32f10x.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\HARDWARE\KEY\key.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\HARDWARE\LCD\FONT.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\HARDWARE\LCD\lcd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\HARDWARE\LED\led.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\HARDWARE\RTC\rtc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\HARDWARE\SPI\spi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\HARDWARE\TOUCH\touch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\STM32F10x_FWlib\inc\misc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_adc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_bkp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_can.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_cec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_crc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_dac.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_dbgmcu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_dma.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_exti.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_flash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_fsmc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_gpio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_i2c.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_iwdg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_pwr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_rcc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_rtc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_sdio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_spi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_tim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_usart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\STM32F10x_FWlib\inc\stm32f10x_wwdg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\SYSTEM\delay\delay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\SYSTEM\sys\sys.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\SYSTEM\usart\usart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\uCOS-II\Ports\os_cpu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\uCOS-II\Source\ucos_ii.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\SYSTEM\can\can.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\USER\stm32f10x.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\USER\stm32f10x_conf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\com\app_com.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\com\app_eeprom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\com\cmd_funs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\com\double_list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\com\drv_motor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\com\property.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\com\sharememory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\app_downmsg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\cmd_basetype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\cmd_downmachine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\ad1\act.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\ad1\cmd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\ad1\product.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\ad1\task.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\ad1\unitinfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\disw\act.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\disw\cmd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\disw\disk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\disw\eeprom_config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\disw\ndl_operate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\disw\product.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\disw\task.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\disw\unitinfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\mixs\act.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\mixs\act_smp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\mixs\cmd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\mixs\eeprom_config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\mixs\ndl_operate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\mixs\product.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\mixs\task.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\mixs\unitinfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\ndl\act.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\ndl\cmd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\ndl\eeprom_config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\ndl\ndl_operate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\ndl\product.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\ndl\task.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\APP\ndl\unitinfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\USER-ad1\stm32f10x.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\USER-ad1\stm32f10x_conf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\USER-disw\stm32f10x.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\USER-disw\stm32f10x_conf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\USER-mixs\stm32f10x.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\USER-mixs\stm32f10x_conf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code\CORE\core_cm3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CORE\stm32f10x_it.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CORE\system_stm32f10x.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\HARDWARE\KEY\key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\HARDWARE\LCD\ILI93xx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\HARDWARE\LCD\lcd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\HARDWARE\LED\led.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\HARDWARE\RTC\rtc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\HARDWARE\SPI\spi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\HARDWARE\TOUCH\touch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\STM32F10x_FWlib\src\misc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_adc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_bkp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_can.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_cec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_crc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_dac.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_dbgmcu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_dma.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_exti.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_flash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_fsmc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_gpio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_i2c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_iwdg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_pwr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_rcc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_rtc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_sdio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_spi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_tim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_usart.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\STM32F10x_FWlib\src\stm32f10x_wwdg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\SYSTEM\delay\delay.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\SYSTEM\sys\sys.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\SYSTEM\usart\usart.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\uCOS-II\Ports\os_cpu_c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\uCOS-II\Ports\os_dbg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\uCOS-II\Source\os_core.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\uCOS-II\Source\os_flag.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\uCOS-II\Source\os_mbox.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\uCOS-II\Source\os_mem.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\uCOS-II\Source\os_mutex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\uCOS-II\Source\os_q.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\uCOS-II\Source\os_sem.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\uCOS-II\Source\os_task.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\uCOS-II\Source\os_time.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\uCOS-II\Source\os_tmr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\SYSTEM\can\can.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\USER\main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\com\app_eeprom.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\com\cmd_funs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\com\double_list.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\com\drv_motor.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\com\sharememory.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\ad1\act.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\ad1\cmd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\ad1\product.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\ad1\task.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\disw\act.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\disw\cmd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\disw\disk - 副本.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\disw\disk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\disw\eeprom_config.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\disw\ndl_operate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\disw\product.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\disw\task.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\mixs\act.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\mixs\act_smp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\mixs\cmd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\mixs\eeprom_config.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\mixs\ndl_operate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\mixs\product.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\mixs\task.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\ndl\act.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\ndl\cmd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\ndl\eeprom_config.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\ndl\ndl_operate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\ndl\product.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\APP\ndl\task.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\USER-ad1\main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\USER-disw\main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\USER-mixs\main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="code\uCOS-II\Ports\os_cpu_a.asm">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="code\USER\obj\ucos.build_log.htm" />
+    <None Include="code\USER\obj\ucos.htm" />
+    <None Include="code\USER-ad1\obj\ucos.build_log.htm" />
+    <None Include="code\USER-ad1\obj\ucos.htm" />
+    <None Include="code\USER-disw\obj\ucos.build_log.htm" />
+    <None Include="code\USER-disw\obj\ucos.htm" />
+    <None Include="code\USER-mixs\obj\ucos.build_log.htm" />
+    <None Include="code\USER-mixs\obj\ucos.htm" />
+  </ItemGroup>
+</Project>
